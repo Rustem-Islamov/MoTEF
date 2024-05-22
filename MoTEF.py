@@ -11,7 +11,6 @@ from nda import log
 
 
 class BEER_Momentum(Optimizer):
-    '''BEtter compression for dEcentRalized optimization'''
 
     def __init__(self, p, eta=0.1, gamma=0.1, lmbd=0.9, batch_size=1, compressor_type=None, compressor_param=None, **kwargs):
 
